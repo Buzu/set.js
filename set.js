@@ -10,7 +10,7 @@
  */
 function setBuilder(template) {
     "use strict";
-    // allow instantiation withouth this keyword
+    // allow instantiation withouth the new keyword
     // seen on jQuery (jquery.Event)
     if (!(this instanceof setBuilder)) {
         return new setBuilder(template);
