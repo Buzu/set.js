@@ -1,0 +1,21 @@
+{
+  "name": "set_js",
+  "version": "0.0.1",
+  "description": "Small library for working with number sets represented in set notation",
+  "main": "set.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sets",
+    "math",
+    "numbers"
+  ],
+  "author": "Buzu",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt-jslint": "~1.1.8",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-uglify": "~0.4.0"
+  }
+}
